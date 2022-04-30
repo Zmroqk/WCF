@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="86a74aee-de4a-4996-ae80-a218f32cd4e4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/WCF/Books" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Books.xsd" MetadataType="Schema" ID="b5ede5b6-a251-4187-be94-dd927dda4974" SourceId="1" SourceUrl="http://localhost:8733/WCF/Books?xsd=xsd1" />
+    <MetadataFile FileName="Books1.xsd" MetadataType="Schema" ID="cc8cb953-97f9-4bbf-9280-1a51503e9e22" SourceId="1" SourceUrl="http://localhost:8733/WCF/Books?xsd=xsd0" />
+    <MetadataFile FileName="Books.disco" MetadataType="Disco" ID="7c97a243-03bb-4245-96fe-c9a09dc74de4" SourceId="1" SourceUrl="http://localhost:8733/WCF/Books?disco" />
+    <MetadataFile FileName="BookService.wsdl" MetadataType="Wsdl" ID="5c81326d-4f3d-4b7c-9931-975ef6154644" SourceId="1" SourceUrl="http://localhost:8733/WCF/Books?wsdl" />
+    <MetadataFile FileName="Books2.xsd" MetadataType="Schema" ID="1a58f345-e354-43ea-a880-689621a629e5" SourceId="1" SourceUrl="http://localhost:8733/WCF/Books?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
